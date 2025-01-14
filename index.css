@@ -1,0 +1,21 @@
+.foreach{
+
+    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    padding: 20px;
+    width: 175px;
+    padding: 10px;
+   
+
+}
+
+.container{
+
+ 
+    
+   
+    gap: 20px;
+    padding: 5px;
+
+}
