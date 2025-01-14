@@ -20,6 +20,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="index.css">
         <title>IMC Calculator</title>
+        <h1>IMC Calculator</h1>
     </head>
     <h1>IMC Calculator</h1>
         <body>
