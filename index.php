@@ -20,7 +20,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="index.css">
         <title>IMC Calculator</title>
-        <h1>IMC Calculator</h1>
     </head>
     <h1>IMC Calculator</h1>
         <body>
@@ -35,7 +34,7 @@
                 <input type="text" name="age" placeholder="Age">
                 <input type="text" name="weight" placeholder="Poids">
                 <input type="text" name="height" placeholder="Taille">
-                <input type="submit" value="Ajouter" name="Ajouter"><br><br>
+                <input class="button_create" type="submit" value="Ajouter" name="Ajouter"><br><br>
 
 
 
@@ -66,8 +65,8 @@
                             } elseif ($imc >= 40) {
                                 echo 'Obésité morbide<br>';
                             }
-                            ?> <br> <a href="./update.php?id=<?php echo $res["id"];?>&name=<?php echo $res["name"];?>&age=<?php echo $res["age"];?>&weight=<?php echo $res["weight"];?>&height=<?php echo $res["height"];?>"><button>Modifier</button></a> <br> <?php
-                            ?> <a href="./controllerdelete.php?id=<?php echo $res["id"];?>"><button>Supprimer</button></a> <?php
+                            ?> <br> <a href="./update.php?id=<?php echo $res["id"];?>&name=<?php echo $res["name"];?>&age=<?php echo $res["age"];?>&weight=<?php echo $res["weight"];?>&height=<?php echo $res["height"];?>"><button class ="button_go_update">Modifier</button></a> <br> <?php
+                            ?> <a href="./controllerdelete.php?id=<?php echo $res["id"];?>"><button class ="button_delete">Supprimer</button></a> <?php
 
                             ?> <br><br><br><br> 
                             
